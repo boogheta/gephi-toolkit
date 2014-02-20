@@ -550,7 +550,7 @@
                             <goal>jar</goal>
                         </goals>
                         <configuration>
-                            <includeDependencySources>true</includeDependencySources>
+                            <includeDependencySources>false</includeDependencySources>
               
                             <dependencySourceExcludes>
                                 <!-- exclude ONLY commons-cli artifacts -->

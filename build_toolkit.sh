@@ -11,5 +11,6 @@ cd ..
 # Adapt the toolkit repo to the corresponding version branch
 # Set the distant repository to be the local maven installation directory
 sed "s/##USER##/$(whoami)/" pom_homebuild.xml > pom.xml
-mvn clean install && echo "Toolkit successfully built and available in $pwd/target/"
+mvn clean install && echo "Toolkit successfully built and available in $pwd/target/gephi-toolkit-0.8.2-all.jar"
+git checkout -- pom.xml
 
