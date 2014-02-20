@@ -3,9 +3,8 @@
 # This should already have been done before or the current file wouldn't even be there
 git checkout builder-0.8.2
 # Pull the version we want to try with the toolkit, checkout the desired branch and compile it
-git clone git@github.com:jacomyma/gephi
+git clone git@github.com:jacomyma/gephi -b "Jacomyma's-Playground"
 cd gephi
-git checkout "Jacomyma's-Playground"
 mvn clean install || exit 1
 cd ..
 

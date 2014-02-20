@@ -71,7 +71,7 @@
         
         <!-- Repository URLs -->
         <gephi.release.repository.id>gephi-homebuild</gephi.release.repository.id>
-      	<gephi.release.repository.url>file:///home/##USER##/.m2/repositories</gephi.release.repository.url>
+      	<gephi.release.repository.url>file:///home/##USER##/.m2/repository</gephi.release.repository.url>
         
         <!-- SCM -->
         <gephi.scm>git</gephi.scm>
