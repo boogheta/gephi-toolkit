@@ -74,12 +74,12 @@ To build it based on your own Gephi build, do the following:
   * in Windows XP: ```c:\Documents and Settings\<username>\.m2\```
 - within the Gephi-toolkit repository, replace the ```pom.xml``` file with the ```pom_homebuild.xml``` file (which is just a copy without external javadoc dependencies and downloads) and edit it as follows:
 - set the field `gephi.release.repository.url` line 74 by replacing ```/home/##USER##/``` with the identified maven path discussed above to get something like the followings:
-  * Linux: ```file:///home/myusername/.m2/repository```
-  * MacOSX: ```file:///Users/myusername/.m2/repository```
-  * Windows Vista, 7+: ```file://C:\Documents and Settings\username\.m2\repository```
-  * Windows XP: ```file://C:\Users\myusername\.m2\repository```
+  * Linux: ```file:///home/myusername/.m2/repository/```
+  * MacOSX: ```file:///Users/myusername/.m2/repository/```
+  * Windows Vista, 7+: ```file://C:\Documents and Settings\username\.m2\repository\```
+  * Windows XP: ```file://C:\Users\myusername\.m2\repository\```
 - build the gephi-toolkit (`mvn clean install` or from Netbeans)
-- collect the built jar in the `target` directory
+- collect the jar built in the `target` directory
 
 ### Requirements
 
